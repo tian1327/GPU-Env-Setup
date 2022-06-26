@@ -35,3 +35,6 @@ To address message `Not creating XLA devices, tf_xla_enable_xla_devices not set`
 export TF_XLA_FLAGS=--tf_xla_enable_xla_devices
 ```
 
+```console
+export CUDA_VISIBLE_DEVICES=2
+```
